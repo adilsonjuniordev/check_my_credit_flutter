@@ -1,9 +1,6 @@
-import 'package:check_my_credito/app/screens/home.dart';
 import 'package:check_my_credito/app/ui/my_colors.dart';
-import 'package:check_my_credito/app/widgets/bottom_sheet_forgot.dart';
 import 'package:check_my_credito/app/widgets/my_button.dart';
 import 'package:check_my_credito/app/widgets/my_text_field.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -21,7 +21,7 @@ class _AjudaState extends State<Ajuda> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cadastro Positivo', style: TextStyle(color: MyColors.primary, fontWeight: FontWeight.bold)),
+        title: Text('Preciso de ajuda', style: TextStyle(color: MyColors.primary, fontWeight: FontWeight.bold)),
         iconTheme: const IconThemeData(color: Colors.grey, size: 32),
         centerTitle: true,
         backgroundColor: MyColors.secondary,
