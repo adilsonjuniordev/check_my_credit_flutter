@@ -1,8 +1,8 @@
 # Check My Crédito
 
-Projeto desenvolvido em Flutter:
-Flutter Version: 2.10.0
-Dart Version: 2.16.0
+- Projeto desenvolvido em Flutter:
+- Flutter Version: 2.10.0
+- Dart Version: 2.16.0
 
 ## Getting Started
 
