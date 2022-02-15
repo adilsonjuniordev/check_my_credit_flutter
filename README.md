@@ -1,14 +1,12 @@
-# check_my_credito
+# Check My Crédito
 
-A new Flutter project.
+Projeto desenvolvido em Flutter:
+Flutter Version: 2.10.0
+Dart Version: 2.16.0
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Lab: Write your Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 For help getting started with Flutter, view our
