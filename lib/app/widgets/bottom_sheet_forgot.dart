@@ -66,7 +66,7 @@ class _BottomSheetForgotState extends State<BottomSheetForgot> {
               const SizedBox(height: 30),
               MyButton(
                   onPressed: () {
-                    validaRecover();
+                    validateRecover();
                   },
                   text: "Recuperar",
                   bgColor: MyColors.tertiary,
@@ -77,7 +77,7 @@ class _BottomSheetForgotState extends State<BottomSheetForgot> {
     );
   }
 
-  validaRecover() {
+  validateRecover() {
     final formValid = _formKey.currentState!.validate();
     if (formValid) {
       Get.back();

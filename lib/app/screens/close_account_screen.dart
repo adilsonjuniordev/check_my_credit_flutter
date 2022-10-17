@@ -3,14 +3,14 @@ import 'package:check_my_credito/app/widgets/my_button.dart';
 import 'package:check_my_credito/app/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
 
-class EncerrarConta extends StatefulWidget {
-  const EncerrarConta({Key? key}) : super(key: key);
+class CloseAccountScreen extends StatefulWidget {
+  const CloseAccountScreen({Key? key}) : super(key: key);
 
   @override
-  State<EncerrarConta> createState() => _EncerrarContaState();
+  State<CloseAccountScreen> createState() => _CloseAccountScreenState();
 }
 
-class _EncerrarContaState extends State<EncerrarConta> {
+class _CloseAccountScreenState extends State<CloseAccountScreen> {
   bool isSwitched = true;
 
   @override

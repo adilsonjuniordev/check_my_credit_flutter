@@ -2,8 +2,8 @@ import 'package:check_my_credito/app/ui/my_colors.dart';
 import 'package:check_my_credito/app/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
 
-class Score extends StatelessWidget {
-  const Score({Key? key}) : super(key: key);
+class ScoreScreen extends StatelessWidget {
+  const ScoreScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

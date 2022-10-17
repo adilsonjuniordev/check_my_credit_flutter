@@ -1,10 +1,10 @@
-import 'package:check_my_credito/app/screens/ajuda.dart';
-import 'package:check_my_credito/app/screens/cadastro_positivo.dart';
-import 'package:check_my_credito/app/screens/dados.dart';
-import 'package:check_my_credito/app/screens/encerrar_conta.dart';
-import 'package:check_my_credito/app/screens/home.dart';
-import 'package:check_my_credito/app/screens/privacidade.dart';
-import 'package:check_my_credito/app/screens/termos.dart';
+import 'package:check_my_credito/app/screens/help_screen.dart';
+import 'package:check_my_credito/app/screens/positive_record_screen.dart';
+import 'package:check_my_credito/app/screens/my_account_screen.dart';
+import 'package:check_my_credito/app/screens/close_account_screen.dart';
+import 'package:check_my_credito/app/screens/home_screen.dart';
+import 'package:check_my_credito/app/screens/privacy_screen.dart';
+import 'package:check_my_credito/app/screens/terms_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -22,51 +22,37 @@ class MyDrawer extends StatelessWidget {
           ListTile(
             dense: true,
             title: const Text('Home', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
-            onTap: () {
-              Get.off(const Home());
-            },
+            onTap: () => Get.off(const HomeScreen()),
           ),
           ListTile(
             dense: true,
             title: const Text('Dados Cadastrais', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
-            onTap: () {
-              Get.off(const Dados());
-            },
+            onTap: () => Get.off(const MyAccountScreen()),
           ),
           ListTile(
             dense: true,
             title: const Text('Cadastro Positivo', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
-            onTap: () {
-              Get.off(const CadastroPositivo());
-            },
+            onTap: () => Get.off(const PositiveRecordScreen()),
           ),
           ListTile(
             dense: true,
             title: const Text('Encerrar Conta', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
-            onTap: () {
-              Get.off(const EncerrarConta());
-            },
+            onTap: () => Get.off(const CloseAccountScreen()),
           ),
           ListTile(
             dense: true,
             title: const Text('Preciso de Ajuda', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
-            onTap: () {
-              Get.off(const Ajuda());
-            },
+            onTap: () => Get.off(const HelpScreen()),
           ),
           ListTile(
             dense: true,
             title: const Text('Termos de Uso e Políticas do App', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
-            onTap: () {
-              Get.off(const Termos());
-            },
+            onTap: () => Get.off(const TermosScreen()),
           ),
           ListTile(
             dense: true,
             title: const Text('Privacidade', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
-            onTap: () {
-              Get.off(const Privacidade());
-            },
+            onTap: () =>Get.off(const PrivacyScreen()),
           ),
           ListTile(
             dense: true,

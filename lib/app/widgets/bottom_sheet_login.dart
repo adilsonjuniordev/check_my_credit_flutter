@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:validatorless/validatorless.dart';
 
-import '../screens/home.dart';
+import '../screens/home_screen.dart';
 
 class BottomSheetLogin extends StatefulWidget {
   const BottomSheetLogin({Key? key}) : super(key: key);
@@ -86,7 +86,7 @@ class _BottomSheetLoginState extends State<BottomSheetLogin> {
               const SizedBox(height: 20),
               MyButton(
                   onPressed: () {
-                    validaLogin();
+                    validateLogin();
                   },
                   text: "Login",
                   bgColor: MyColors.tertiary,
@@ -122,11 +122,11 @@ class _BottomSheetLoginState extends State<BottomSheetLogin> {
     );
   }
 
-  validaLogin() {
+  validateLogin() {
     final validForm = _formKey.currentState!.validate();
     if (validForm) {
       Get.back();
-      Get.off(const Home());
+      Get.off(const HomeScreen());
     } else {}
   }
 }

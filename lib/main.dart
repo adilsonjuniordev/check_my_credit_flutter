@@ -1,5 +1,4 @@
-import 'package:check_my_credito/app/screens/init.dart';
-import 'package:check_my_credito/app/screens/splash.dart';
+import 'package:check_my_credito/app/screens/splash_screen.dart';
 import 'package:check_my_credito/app/ui/my_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: MyTheme.myTheme,
-      home: const Init(),
+      home: const SplashScreen(),
     );
   }
 }

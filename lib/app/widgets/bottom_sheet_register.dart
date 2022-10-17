@@ -83,42 +83,23 @@ class _BottomSheetRegisterState extends State<BottomSheetRegister> {
                         children: <TextSpan>[
                           const TextSpan(
                             text: "Estou de acordo com o ",
-                            style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 13,
-                            ),
+                            style: TextStyle(color: Colors.black, fontSize: 13),
                           ),
                           TextSpan(
                             text: "Termo de uso ",
-                            style: TextStyle(
-                              color: MyColors.tertiary,
-                              fontSize: 13,
-                              fontWeight: FontWeight.bold,
-                              decoration: TextDecoration.underline,
-                            ),
+                            style: TextStyle(color: MyColors.tertiary, fontSize: 13, fontWeight: FontWeight.bold, decoration: TextDecoration.underline),
                           ),
                           const TextSpan(
                             text: "e a ",
-                            style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 13,
-                            ),
+                            style: TextStyle(color: Colors.black, fontSize: 13),
                           ),
                           TextSpan(
                             text: "Política de Privacidade ",
-                            style: TextStyle(
-                              color: MyColors.tertiary,
-                              fontSize: 13,
-                              fontWeight: FontWeight.bold,
-                              decoration: TextDecoration.underline,
-                            ),
+                            style: TextStyle(color: MyColors.tertiary, fontSize: 13, fontWeight: FontWeight.bold, decoration: TextDecoration.underline),
                           ),
                           const TextSpan(
                             text: "do Check My Crédito",
-                            style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 13,
-                            ),
+                            style: TextStyle(color: Colors.black, fontSize: 13),
                           ),
                         ],
                       ),
@@ -128,12 +109,11 @@ class _BottomSheetRegisterState extends State<BottomSheetRegister> {
               ),
               const SizedBox(height: 30),
               MyButton(
-                  onPressed: () {
-                    Get.back();
-                  },
-                  text: "Consultar meu CPF",
-                  bgColor: MyColors.tertiary,
-                  textColor: MyColors.secondary),
+                onPressed: () => Get.back(),
+                text: "Consultar meu CPF",
+                bgColor: MyColors.tertiary,
+                textColor: MyColors.secondary,
+              ),
             ],
           )),
     );

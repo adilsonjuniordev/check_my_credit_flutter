@@ -1,4 +1,4 @@
-import 'package:check_my_credito/app/screens/score.dart';
+import 'package:check_my_credito/app/screens/score_screen.dart';
 import 'package:check_my_credito/app/ui/my_colors.dart';
 import 'package:check_my_credito/app/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
@@ -6,8 +6,8 @@ import 'package:get/get.dart';
 
 import '../widgets/my_card.dart';
 
-class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +55,7 @@ class Home extends StatelessWidget {
                           ),
                           child: Text("Entenda seu Score", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: MyColors.primary)),
                           onPressed: () {
-                            Get.to(const Score());
+                            Get.to(const ScoreScreen());
                           },
                         ),
                       ],

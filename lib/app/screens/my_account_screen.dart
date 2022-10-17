@@ -5,8 +5,8 @@ import 'package:check_my_credito/app/widgets/my_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:validatorless/validatorless.dart';
 
-class Dados extends StatelessWidget {
-  const Dados({Key? key}) : super(key: key);
+class MyAccountScreen extends StatelessWidget {
+  const MyAccountScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

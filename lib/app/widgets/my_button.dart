@@ -16,9 +16,7 @@ class MyButton extends StatelessWidget {
     return SizedBox(
       width: MediaQuery.of(context).size.width * 0.75,
       child: ElevatedButton(
-        onPressed: () {
-          onPressed();
-        },
+        onPressed: () => onPressed(),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Padding(

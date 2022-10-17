@@ -5,17 +5,17 @@ import 'package:check_my_credito/app/widgets/my_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:validatorless/validatorless.dart';
 
-class Ajuda extends StatefulWidget {
-  const Ajuda({Key? key}) : super(key: key);
+class HelpScreen extends StatefulWidget {
+  const HelpScreen({Key? key}) : super(key: key);
 
   @override
-  State<Ajuda> createState() => _AjudaState();
+  State<HelpScreen> createState() => _HelpScreenState();
 }
 
-class _AjudaState extends State<Ajuda> {
+class _HelpScreenState extends State<HelpScreen> {
   bool isSwitched = true;
-  final _valores = ['Selecione', 'Crédito', 'Conta', 'Sugestão', 'Reclamação', 'Elogio'];
-  var _itemSelecionado = '';
+  String? _selectedItem = '';
+  final _itemsDropDown = ['Selecione', 'Crédito', 'Conta', 'Sugestão', 'Reclamação', 'Elogio'];
 
   @override
   Widget build(BuildContext context) {
@@ -67,8 +67,8 @@ class _AjudaState extends State<Ajuda> {
                                 isDense: true,
                                 isExpanded: true,
                                 borderRadius: BorderRadius.circular(10),
-                                value: _valores.first,
-                                items: _valores.map((String dropDownStringItem) {
+                                value: _itemsDropDown.first,
+                                items: _itemsDropDown.map((String dropDownStringItem) {
                                   return DropdownMenuItem<String>(
                                     value: dropDownStringItem,
                                     child: Text(dropDownStringItem),
@@ -119,9 +119,9 @@ class _AjudaState extends State<Ajuda> {
     );
   }
 
-  void _dropDownItemSelected(String? novoItem) {
+  void _dropDownItemSelected(String? newItem) {
     setState(() {
-      _itemSelecionado = novoItem ?? "";
+      _selectedItem = newItem ?? "";
     });
   }
 }

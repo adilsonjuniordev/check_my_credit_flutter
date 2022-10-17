@@ -2,14 +2,14 @@ import 'package:check_my_credito/app/ui/my_colors.dart';
 import 'package:check_my_credito/app/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
 
-class Termos extends StatefulWidget {
-  const Termos({Key? key}) : super(key: key);
+class TermosScreen extends StatefulWidget {
+  const TermosScreen({Key? key}) : super(key: key);
 
   @override
-  State<Termos> createState() => _TermosState();
+  State<TermosScreen> createState() => _TermosScreenState();
 }
 
-class _TermosState extends State<Termos> {
+class _TermosScreenState extends State<TermosScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

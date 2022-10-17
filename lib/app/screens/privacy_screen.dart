@@ -3,14 +3,14 @@ import 'package:check_my_credito/app/widgets/my_drawer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Privacidade extends StatefulWidget {
-  const Privacidade({Key? key}) : super(key: key);
+class PrivacyScreen extends StatefulWidget {
+  const PrivacyScreen({Key? key}) : super(key: key);
 
   @override
-  State<Privacidade> createState() => _PrivacidadeState();
+  State<PrivacyScreen> createState() => _PrivacyScreenState();
 }
 
-class _PrivacidadeState extends State<Privacidade> {
+class _PrivacyScreenState extends State<PrivacyScreen> {
   bool isSwitched = true;
 
   @override

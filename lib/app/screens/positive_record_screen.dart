@@ -3,14 +3,14 @@ import 'package:check_my_credito/app/widgets/my_drawer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class CadastroPositivo extends StatefulWidget {
-  const CadastroPositivo({Key? key}) : super(key: key);
+class PositiveRecordScreen extends StatefulWidget {
+  const PositiveRecordScreen({Key? key}) : super(key: key);
 
   @override
-  State<CadastroPositivo> createState() => _CadastroPositivoState();
+  State<PositiveRecordScreen> createState() => _PositiveRecordScreenState();
 }
 
-class _CadastroPositivoState extends State<CadastroPositivo> {
+class _PositiveRecordScreenState extends State<PositiveRecordScreen> {
   bool isSwitched = true;
 
   @override

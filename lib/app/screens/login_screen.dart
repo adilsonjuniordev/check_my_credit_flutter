@@ -7,14 +7,14 @@ import 'package:get/get.dart';
 import 'package:validatorless/validatorless.dart';
 import '../widgets/my_button.dart';
 
-class Splash extends StatefulWidget {
-  const Splash({Key? key}) : super(key: key);
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
-  State<Splash> createState() => _SplashState();
+  State<LoginScreen> createState() => _LoginScreenState();
 }
 
-class _SplashState extends State<Splash> {
+class _LoginScreenState extends State<LoginScreen> {
   final _cpfEC = TextEditingController();
   final _formKey = GlobalKey<FormState>();
 
